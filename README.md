@@ -7,7 +7,9 @@ Bobby and I were tasked with setting up databases for Pewlett-Hackard to make em
 Looking at the diagram, you can see the various datatypes and keys that connect the datatables. Using the ERD, we were able to create the tables in PostgreSQL and then import the csv data into the tables in SQL. Once all of the data was in place, we were able to create queries in order to get some key information about the future of Pewlett-Hackard. 
 
 ### Queries
-Bobby and I ran a number of queries just to get a feel for the data. We looked at the number of emplyees that are eligible for retirement and retrieved the employee number, first name, and last name for each employeed born between 1952 and 1955 and hired between 1985-1988. We also wrote queries to export an employee information table, a list of managers per department, and a list of department information. Bobby and I did so well, that even the Sales Department wanted us produce a reitirment information for the Sales and Development teams as well.
+Bobby and I ran a number of queries just to get a feel for the data. We looked at the number of emplyees that are eligible for retirement and retrieved the employee number, first name, and last name for each employeed born between 1952 and 1955 and hired between 1985-1988. We also wrote queries to export an employee information table, a list of managers per department, and a list of department information. Bobby and I did so well, that even the Sales Department wanted us produce a reitirment information for the Sales and Development teams as well. Below are a couple of our queries:
+
+![Query_examples](https://github.com/rmward17/Pewlett-Hackard_Analysis/blob/main/Query_examples.png)
 
 Once we proved we could work wth SQL, we were tasked with creating two very important tables - the number of retiring employees by title and a table of employees eligible for a mentorship program. It took some time but we were able to produce both tables and export them to csv files for management.
 
